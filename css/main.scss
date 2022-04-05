@@ -1,0 +1,26 @@
+//here goes any bootrstrap modification
+$primary: rgb(0, 255, 98);
+$primary-light: rgba(0, 255, 98, 0.2);
+$text-dark: #000;
+$theme-colors: (
+    "primary": $primary,
+    "dark": $text-dark
+);
+
+//My own map for bootstrap
+$custom-colors: (
+    "primary-light": $primary-light,
+);
+
+//Marge maps
+$theme-colors: map-merge($theme-colors,$custom-colors);
+
+//Bootstrap module
+@import "./bootstrap/scss/bootstrap";
+@import "./scss/top-header";
+@import "./scss/header";
+@import "./scss/navigation";
+
+@import "./scss/front-page";
+
+@import "./scss/footer";

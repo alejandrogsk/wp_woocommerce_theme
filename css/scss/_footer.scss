@@ -1,0 +1,17 @@
+.site-footer{
+    .menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            padding-left: .25rem;
+            &:hover {
+                color: $secondary;
+            }
+        }
+
+    }
+}

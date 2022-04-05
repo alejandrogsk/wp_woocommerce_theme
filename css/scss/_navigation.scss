@@ -1,0 +1,32 @@
+.main-navigation {
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    .current-menu-item {
+        background-color: $primary-light;
+    }
+
+    a {
+        color: var(--bs-white);
+        padding: 0.5rem 1.4rem;
+        &:hover {
+            background-color: $primary-light;
+        }
+    }
+
+    .sub-menu {
+        display: flex;
+        flex-direction: column;
+
+
+        li {
+            text-align: start;
+            background-color: $primary;
+            &:hover {
+                background-color: $primary-light;
+            }
+        }
+
+
+    }
+}

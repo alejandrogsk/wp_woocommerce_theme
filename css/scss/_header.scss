@@ -1,0 +1,21 @@
+.site-header {
+
+
+    &__logo {
+        & > p {
+            margin: 0;
+        }
+    }
+
+    &__search {
+        .aws-search-field {
+            font-size: 0.9rem;
+            padding-left: 1.4rem;
+            border-radius: 20px !important;
+        }
+    }
+
+    &__cart {
+
+    }
+}
